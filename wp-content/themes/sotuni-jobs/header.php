@@ -7,8 +7,9 @@
 	<title>Jobs</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 
-	<link rel="stylesheet" href="wp-content\themes\sotuni-jobs\assets\css\master.css">
+	
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <?php wp_head(); ?>
 </head>
 <body>
 	<div class="site-wrapper">
