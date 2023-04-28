@@ -32,7 +32,8 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
+h1,
+.site-title {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -378,6 +379,7 @@ a {
   margin: 0;
   padding: 0;
 }
+
 .jobs-listing li {
   margin-bottom: 1em;
 }
@@ -392,37 +394,46 @@ a {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
   display: flex;
 }
+
 .job-card .job-primary {
   flex: 1 1 auto;
 }
+
 .job-card .job-title {
   margin: 0;
   font-size: 1.375em;
   margin-bottom: 0.25em;
 }
+
 .job-card .job-title a {
   color: black;
 }
+
 .job-card .job-details {
   margin-top: 2em;
 }
+
 .job-card .job-type {
   margin-left: 1em;
   display: inline-block;
 }
+
 .job-card .meta-date {
   opacity: 0.5;
   margin-left: 1em;
 }
+
 .job-card .job-edit {
   display: flex;
   align-items: center;
 }
+
 .job-card .job-edit a {
   color: black;
   display: inline-block;
 }
-.job-card .job-edit a + a {
+
+.job-card .job-edit a+a {
   margin-left: 1em;
 }
 
@@ -433,6 +444,7 @@ a {
   align-items: stretch;
   justify-content: stretch;
 }
+
 .job-logo-box {
   max-height: 7.875em;
   border: 1px solid var(--color-separator);
@@ -444,6 +456,7 @@ a {
   padding: 0.5em;
   width: 100%;
 }
+
 .job-logo-box img {
   max-width: 8em;
   max-height: 4em;
@@ -452,28 +465,35 @@ a {
 .job-single {
   display: flex;
 }
+
 .job-single .job-secondary {
   flex: 0 0 14em;
   margin-left: 2em;
   text-align: center;
 }
+
 .job-single .job-secondary .button {
   margin-bottom: 0.5em;
 }
+
 .job-single .job-main {
   flex: 1 1 auto;
 }
+
 .job-single .job-body {
   margin-top: 1em;
   padding-top: 1em;
   border-top: 1px solid var(--color-separator);
 }
+
 .job-single .job-body p:first-child {
   margin-top: 0;
 }
+
 .job-single .job-body p:last-child {
   margin-bottom: 0;
 }
+
 .job-single .job-logo {
   margin-bottom: 1em;
 }
@@ -496,6 +516,7 @@ a {
   text-align: center;
   display: inline-block;
 }
+
 .button-wide {
   width: 100%;
 }
@@ -504,21 +525,23 @@ a {
   .job-single {
     flex-direction: column;
   }
+
   .job-single .job-secondary {
     margin-left: 0;
     margin-top: 1em;
   }
 
   .job-details span,
-.job-details a,
-.job-meta span,
-.job-meta a {
+  .job-details a,
+  .job-meta span,
+  .job-meta a {
     display: block;
   }
+
   .job-details .job-type,
-.job-details .meta-date,
-.job-meta .job-type,
-.job-meta .meta-date {
+  .job-details .meta-date,
+  .job-meta .job-type,
+  .job-meta .meta-date {
     margin: 0;
   }
 
@@ -526,14 +549,17 @@ a {
     margin: 0 1em;
   }
 }
+
 @media (max-width: 480px) {
   .job-card {
     flex-direction: column;
   }
+
   .job-card .job-logo {
     flex: 0 0 auto;
     margin-top: 1em;
   }
+
   .job-card .job-details {
     margin-top: 0.5em;
   }
