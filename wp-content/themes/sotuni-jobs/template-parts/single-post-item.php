@@ -1,6 +1,6 @@
 <li class="job-card">
 				<div class="job-primary">
-					<h2 class="job-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					<h1 class="job-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 					<div class="job-meta">
 						<a class="meta-company"><?php the_category(); ?></a>
 						<span class="meta-date">Posted <?php the_date(); ?></span>
