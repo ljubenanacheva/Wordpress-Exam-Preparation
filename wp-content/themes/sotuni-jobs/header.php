@@ -14,5 +14,5 @@
 <body>
 	<div class="site-wrapper">
 		<header class="site-header">
-			<h1 class="site-title"><a href="#">Job Offers</a></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( get_home_url() ); ?>">Job Offers</a></h1>
 		</header>
