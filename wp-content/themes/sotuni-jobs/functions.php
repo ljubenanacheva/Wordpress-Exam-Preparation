@@ -14,4 +14,4 @@ function softuni_body_class( $classes ) {
     $classes[] = 'test-class';
     return $classes;
 }
-add_filters( 'body_class', 'softuni_body_class' );
+add_filter( 'body_class', 'softuni_body_class' );
