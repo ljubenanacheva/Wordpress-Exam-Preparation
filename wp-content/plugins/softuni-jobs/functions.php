@@ -8,9 +8,9 @@ function softuni_update_job_views_count ( $job_id ){
         return;
     }
 
-    if ( ! is_single( 'job' ) ) {
-        return;
-    }
+    //if ( ! is_single( 'job' ) ) {
+     //   return;
+    //}
 
     $view_count = get_post_meta( $job_id, 'views_count', true );
 

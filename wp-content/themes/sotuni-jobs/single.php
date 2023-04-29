@@ -10,8 +10,6 @@
 
 	<?php endwhile; ?>
 
-	<?php posts_nav_link(); ?>
-
 <?php endif; ?>		
 		
 </ul>
