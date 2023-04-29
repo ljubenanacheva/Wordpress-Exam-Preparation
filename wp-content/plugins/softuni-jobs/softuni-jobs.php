@@ -5,4 +5,6 @@
  * Description: our SoftUni Jobs board plugin
  */
 
- require ( 'cpt-jobs.php' );
+ require 'cpt-jobs.php';
+
+ require 'functions.php';
